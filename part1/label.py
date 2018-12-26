@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
 ###################################
 # CS B551 Fall 2018, Assignment #3
-# D. Crandall
-#
-# There should be no need to modify this file, although you 
-# can if you really want. Edit pos_solver.py instead!
-#
-# To get started, try running: 
+# try running: 
 #
 #   python ./label.py bc.train bc.test.tiny
 #
