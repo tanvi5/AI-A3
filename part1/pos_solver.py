@@ -2,12 +2,6 @@
 
 ###################################
 # CS B551 Fall 2018, Assignment #3
-#
-# shsowani-tpatil
-#
-#
-####
-# Put your report here!!
 '''
 
 Part of speech tagger uses simple, HMM viterbi and MCMC models to predict the part of speech 
@@ -80,10 +74,7 @@ import re
 from math import log
 import numpy as np
 from collections import Counter
-# We've set up a suggested code structure, but feel free to change it. Just
-# make sure your code still works with the label.py and pos_scorer.py code
-# that we've supplied.
-#
+
 class Solver:
     
     # Global variables to store probabilities
@@ -318,7 +309,7 @@ class Solver:
         return final_samples
 
     '''
-    Viterby uses bayes net where observed value word also depends on part of speech of prior word.
+    Viterbi uses bayes net where observed value word also depends on part of speech of prior word.
     For Viterbi algorithm, we have used result and backtrack as a matrix of rows equal to number of Part of speech available and columns as number of words in sentence
     For first word, we have calculated result value as initial probability * emission probability 
     For all later wods, we maximize over the probabilities calculated in previous word and its transition to current state
