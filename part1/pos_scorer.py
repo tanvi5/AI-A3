@@ -4,9 +4,7 @@
 # 
 # Scoring code by D. Crandall
 #
-# PLEASE DON'T MODIFY THIS FILE.
-# Edit pos_solver.py instead!
-#
+
 
 class Score:
     def __init__(self):
